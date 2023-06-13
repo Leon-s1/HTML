@@ -1,0 +1,48 @@
+        <!doctype html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Поиск</title>
+        </head>
+        <body>
+
+
+        <form action="booksearch.html" method="get">
+            <div>
+                <label>Автор</label>
+                <input id="form1_author" type="text" name="author" placeholder="Автор" required>
+            </div>
+            <br>
+            <div>
+                <label>Название</label>
+                <input id="form1_name" type="text" name="name" placeholder="Название" required>
+            </div>
+            <br>
+            <div>
+                <label>Год публикации</label>
+                <input id="form1_year" type="text" name="year" placeholder="Год публикации" required>
+            </div>
+            <br>
+            <div>
+                <label>Место публикации</label>
+                <select name = "public_list">
+                    <option value = "Russia">Россия</option>
+                    <option value = "Near">Ближнее зарубежье</option>
+                    <option value = "Far" selected>Дальнее зарубежье</option>
+                    <option value = "Luna" selected>Луна</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Проверочный код</label>
+                <input id="form1_kod" type="text" name="kod" placeholder="Проверочный код" required>
+            </div>
+            <br>
+            <input id="sendValues" type = "submit" name = "submit" value = "Искать" style="float: left; margin-left: 250px;">
+        </form>
+
+        </body>
+        </html>

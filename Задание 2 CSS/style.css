@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+a {
+    margin-right: 35px;
+}
+div {
+    width: 40%;
+
+}
+nav, div, footer {
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 500px)
+{
+    a {
+        display: block;
+    }
+    div {
+        width: 100%;
+    }
+    nav {
+        background-color: blue;
+    }
+    footer {
+        background-color: black;
+    }
+    .odd {
+        background: white;
+    }
+    .even {
+        background: aqua;
+    }
+    body {
+        background-color: white;
+    }
+}
